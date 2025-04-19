@@ -35,6 +35,18 @@ local.properties
 !debug.keystore
 .kotlin/
 
+# IntelliJ
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+# Android Studio generated files and folders
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+output.json
+
 # node.js
 #
 node_modules/

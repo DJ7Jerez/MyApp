@@ -22,6 +22,31 @@ DerivedData
 *.xcuserstate
 **/.xcode.env.local
 
+# Editor settings
+.vscode/
+
+# React Native related files
+.expo/
+.bundle/
+.watchmanconfig
+
+# Native project files
+android/.gradle/
+android/app/build/
+ios/Pods/
+ios/build/
+
+# Testing and linting
+coverage/
+__tests__/
+.eslintrc.js
+jest.config.js
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
 # Android/IntelliJ
 #
 build/
@@ -52,6 +77,16 @@ output.json
 node_modules/
 npm-debug.log
 yarn-error.log
+
+# Misc config files
+metro.config.js
+babel.config.js
+tsconfig.json
+Gemfile.lock
+
+# Ignore all build outputs
+build/
+dist/
 
 # fastlane
 #
